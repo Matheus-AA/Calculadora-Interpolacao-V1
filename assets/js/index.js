@@ -24,9 +24,9 @@
         if(cotaMaior === '' || cotaMenor === '' || dc === '' || dp === ''){
             $resultado.innerHTML = 'Todos os campos devem estar preenchidos para realizar a conta';
         } else if(diferencaCota < 0){
-            $resultado.innerHTML = 'O valor da <b>cota  maior</b> esta inferior ao da <b>cota menor</b>';
+            $resultado.innerHTML = 'O valor da <b>cota  maior</b> não pode ser inferior ao da <b>cota menor</b>';
         } else if(diferencaDistancia < 0){
-            $resultado.innerHTML = 'A distancia entre o ponto a ser interpolado e a cota não pode ser inferiror ao da distancia entre cotas';
+            $resultado.innerHTML = 'A <b>distancia entre cotas não pode ser inferiror a distancia da cota até o ponto a ser interpolado';
         } else{
             $resultado.innerHTML = `<b>A cota do ponto é: </b>${final}
             <br><b>Cota inicial com 0.40: </b>${condominial}
