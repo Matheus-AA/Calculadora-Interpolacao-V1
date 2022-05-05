@@ -72,7 +72,7 @@ No caso da imagem a seguir, o <b>ponto de cota</b> na cidade 1 é de 382.83 metr
   <li>
   <p>Esses dois últimos valores são referentes as normas da concessionária de água da minha cidade. Por trabalhar com projeto de esgotamento sanitário por norma a   empresa diz que o mínimo para tubulação de rede condominial de esgoto é de 0.40 metros de profundidade e o mínimo para coletor tronco é de 1.05 metros. Por isso   achei interessante adicionar esses valores, pois sempre que existir uma tubulação no ponto que seja inicial sendo de rede condominial ou rede coletora eu já       tenho a cota altimétrica que essa tubulação vai ficar.</p>
   </li>
-  <li>Caso tenha um ou mais campos vazio exibe a mensagem: "Todos os campos devem estar preenchidos para realizar a conta"</li>
+  <li>Caso tenha um ou mais campos vazios exibe a mensagem: "Todos os campos devem estar preenchidos para realizar a conta"</li>
   <li>Caso a o valor da cota maior seja menor que o da cota menor exibe a mensagem: "O valor da <b>cota  maior</b> não pode ser inferior ao da <b>cota menor</b>"     </li>
   <li>Caso a o valor da distância entre cotas seja menor que o valor da cota maior até o ponto exibe a mensagem: "A distância entre cotas não pode ser inferior a     distância da cota até o ponto a ser interpolado"
   </li>
