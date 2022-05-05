@@ -26,7 +26,7 @@
         } else if(diferencaCota < 0){
             $resultado.innerHTML = 'O valor da <b>cota  maior</b> não pode ser inferior ao da <b>cota menor</b>';
         } else if(diferencaDistancia < 0){
-            $resultado.innerHTML = 'A <b>distancia entre cotas não pode ser inferiror a distancia da cota até o ponto a ser interpolado';
+            $resultado.innerHTML = '<b>A distancia entre cotas não pode ser inferiror a distancia da cota até o ponto a ser interpolado';
         } else{
             $resultado.innerHTML = `<b>A cota do ponto é: </b>${final}
             <br><b>Cota inicial com 0.40: </b>${condominial}
